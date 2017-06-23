@@ -3,7 +3,7 @@
 namespace FakerProviderAnimals\Test\Provider\en_GB;
 
 use Faker\Generator;
-use FakerProviderAnimals\en_GB\Animals;
+use FakerProviderAnimals\Animals;
 
 /**
  * Class AnimalsTest
