@@ -35,6 +35,6 @@ class AnimalsTest extends \PHPUnit_Framework_TestCase
     {
         $animalName = $this->faker->animal();
 
-        $this->assertRegExp('/^[\w-]+$/', $animalName);
+        $this->assertRegExp('/^[\wñ-]+$/', $animalName);
     }
 }
